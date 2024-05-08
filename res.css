@@ -1,0 +1,598 @@
+/* ///////////////////////////////////////////// */
+
+/* RESPONSIVE */
+
+/* ///////////////////////////////////////////// */
+
+@media (max-width: 1600px) {
+  .header {
+    width: 95.8%;
+  }
+  .landing {
+    width: 103.5%;
+  }
+  .about {
+    width: 85.7%;
+  }
+  .about-content .img {
+    height: 350px;
+    width: 350px;
+    margin-right: 40px;
+  }
+  .text-content {
+    width: 400px;
+  }
+  .text-content h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .text-content p {
+    width: 600px;
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .services {
+    width: 85.7%;
+  }
+  .services h3 {
+    font-size: 24px;
+
+    letter-spacing: 1px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .card {
+    width: 300px;
+    height: 400px;
+
+    border-radius: 13px;
+
+    margin-left: 26px;
+  }
+
+  .card i {
+    font-size: 60px;
+
+    margin-bottom: 35px;
+  }
+  .card h1 {
+    font-size: 35px;
+  }
+  .card p {
+    font-size: 20px;
+  }
+  .about-content {
+    justify-content: center;
+  }
+  .about-content .img {
+    margin-left: 0px;
+    margin-bottom: 50px;
+
+    height: 500px;
+    width: 550px;
+    align-self: center;
+  }
+  .text-content {
+    width: 850px;
+    margin-left: 0px;
+  }
+
+  .projects {
+    width: 85.7%;
+  }
+
+  .project {
+    margin-bottom: 100px;
+    width: 450px;
+    height: 300px;
+  }
+
+  .project h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .testimonials {
+    width: 85.7%;
+  }
+  .cusomers {
+    flex-wrap: wrap;
+  }
+  .contact {
+    width: 85.7%;
+  }
+  footer {
+    width: 85.7%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .header {
+    width: 95.3%;
+  }
+  .landing {
+    width: 103.5%;
+    height: 110vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(./img/h1r4.jpg) center center no-repeat;
+    object-fit: cover;
+  }
+  .landing-content {
+    align-items: center;
+
+    justify-content: center;
+  }
+  .landing-content h1 {
+    margin: 30% 0 25px -500px;
+    font-size: 45px;
+
+    width: 600px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 4px 6px 8px #9319b89d;
+  }
+  .btns {
+    margin-left: -800px;
+  }
+  .about {
+    width: 94.5%;
+  }
+  .text-content p {
+    width: 800px;
+  }
+  .text-content h1 {
+  }
+  .services {
+    width: 94.5%;
+  }
+  .projects {
+    width: 94.5%;
+  }
+  .testimonials {
+    width: 94.5%;
+  }
+  .contact {
+    width: 94.5%;
+  }
+  footer {
+    width: 94.5%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header {
+    width: 94.6%;
+  }
+  .landing {
+    height: 90vh;
+  }
+  .landing-content h1 {
+    margin: 50% 0 25px -400px;
+    font-size: 45px;
+
+    width: 550px;
+
+    letter-spacing: 1px;
+  }
+  .btns {
+    margin-left: -650px;
+  }
+  .btn-primary {
+    padding: 7px 15px;
+    font-size: 18px;
+
+    border-radius: 8px;
+  }
+  .card {
+    width: 250px;
+    height: 400px;
+    margin-left: 25px;
+  }
+  .card i {
+    font-size: 60px;
+
+    margin-bottom: 30px;
+  }
+  .card h1 {
+    font-size: 35px;
+  }
+  .card p {
+    font-size: 20px;
+  }
+
+  .testimonials {
+    width: 99.9%;
+  }
+  .customer-img-wrapper {
+    width: 180px;
+    height: 130px;
+  }
+  .customers-card-content {
+    width: 500px;
+    height: 450px;
+
+    border-radius: 0.5px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header {
+    width: 93.5%;
+  }
+  .landing {
+    width: 103.5%;
+  }
+  .landing-content h1 {
+    margin: 60% 0 25px -300px;
+    font-size: 40px;
+  }
+  .btns {
+    margin-left: -550px;
+  }
+}
+
+.about {
+  width: 103.5%;
+}
+.skills {
+  width: 90%;
+}
+.services {
+  width: 103.5%;
+}
+
+.projects {
+  width: 103.5%;
+}
+
+.testimonials {
+  width: 103.5%;
+}
+.customers-card-content {
+  width: 360px;
+  height: 180px;
+}
+
+.contact {
+  width: 103.5%;
+}
+.contact h2 {
+  width: 600px;
+}
+footer {
+  width: 103.5%;
+}
+@media (max-width: 800px) {
+  .header {
+    width: 110%;
+  }
+  .sticky {
+    width: 94.8%;
+  }
+  .ham-menu {
+    display: block;
+    visibility: visible;
+    z-index: 2001;
+  }
+  .navigation {
+    background-color: #1b1a1a;
+    height: 100%;
+    width: 100%;
+    max-width: 80%;
+    position: fixed;
+    top: 0;
+    right: -200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+    transition: 0.3s ease;
+    z-index: 2000;
+  }
+  .navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .navigation ul li {
+    margin-bottom: 60px;
+  }
+  .navigation.active {
+    right: 0;
+  }
+  .sticky .navigation ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .landing {
+    width: 130%;
+    height: 90vh;
+  }
+  .landing-content h1 {
+    margin: 60% 0 25px -200px;
+    font-size: 40px;
+
+    width: 600px;
+
+    letter-spacing: 1px;
+  }
+  .btns {
+    margin-left: -400px;
+  }
+  .about {
+    width: 130%;
+  }
+  .text-content {
+    width: 350px;
+    margin-left: 0;
+  }
+  .text-content p {
+    font-size: 24px;
+    width: 90%;
+    text-wrap: wrap;
+  }
+  .about .img {
+    height: 500px;
+    width: 450px;
+    margin-bottom: 80px;
+  }
+  .text-content {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .skills-caption {
+    font-size: 55px;
+    text-align: center;
+  }
+  .skills {
+    width: 80%;
+    margin: auto;
+  }
+  .services {
+    width: 130%;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .projects {
+    width: 130%;
+  }
+  .projects h1 {
+    margin-bottom: 50px;
+  }
+  .project {
+    width: 600px;
+    height: 450px;
+  }
+  .project h2 {
+    font-size: 30px;
+  }
+  .testimonials {
+    width: 130%;
+  }
+  .customer-img-wrapper {
+    width: 200px;
+    height: 150px;
+  }
+  .customers-card-content {
+    width: 430px;
+    height: 250px;
+  }
+  .contact {
+    width: 130%;
+  }
+  .contact h2 {
+    width: 80%;
+  }
+  .input input {
+    width: 250px;
+    font-size: 16px;
+  }
+  .footer {
+    width: 113.5%;
+  }
+  .copyright {
+    width: 113.5%;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+  .sticky {
+    width: 93.8%;
+  }
+  .landing {
+    width: 114%;
+  }
+
+  .landing-content h1 {
+    margin: 80% 0 25px 25px;
+    font-size: 30px;
+    width: 500px;
+  }
+  .btns {
+    margin-left: -200px;
+  }
+  .about {
+    width: 114%;
+  }
+  .about-content .img {
+    margin-left: 30px;
+  }
+  .skill {
+    width: 300px;
+  }
+  .services {
+    width: 114%;
+  }
+  .projects {
+    width: 114%;
+  }
+  .testimonials {
+    width: 114%;
+  }
+  .contact {
+    width: 114%;
+  }
+  .contact input {
+    width: 200px;
+  }
+  .footer {
+    width: 110.5%;
+  }
+  .copyright {
+    width: 110.5%;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    width: 140%;
+  }
+  .sticky {
+    width: 93.8%;
+  }
+
+  .landing {
+    width: 165%;
+    height: 150vh;
+  }
+  .landing-content h1 {
+    margin: 110% 0 25px -100px;
+    font-size: 35px;
+
+    width: 500px;
+
+    letter-spacing: 1px;
+  }
+  .btns {
+    margin-left: -300px;
+  }
+  .about {
+    width: 165%;
+  }
+  .about .img {
+    height: 500px;
+    width: 450px;
+    margin-bottom: 80px;
+  }
+  .text-content {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .skills-caption {
+    font-size: 55px;
+    text-align: center;
+  }
+  .skills {
+    width: 80%;
+    margin: auto;
+  }
+  .services {
+    width: 165%;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .projects {
+    width: 165%;
+  }
+  .projects h1 {
+    margin-bottom: 50px;
+  }
+  .project {
+    width: 600px;
+    height: 450px;
+  }
+  .project h2 {
+    font-size: 30px;
+  }
+  .testimonials {
+    width: 164.5%;
+  }
+  .customer-img-wrapper {
+    width: 250px;
+    height: 170px;
+  }
+  .customers-card-content {
+    width: 550px;
+    height: 250px;
+  }
+  .contact {
+    width: 164.5%;
+  }
+  .contact h2 {
+    width: 80%;
+  }
+  .input input {
+    width: 250px;
+    font-size: 16px;
+  }
+  .footer {
+    width: 10px;
+  }
+  .copyright {
+    width: 10%;
+  }
+}
+@media (max-width: 450px) {
+  .landing {
+    width: 165.8%;
+    height: 90vh;
+  }
+  .landing h1 {
+    margin-top: 50%;
+    margin-left: 0px;
+  }
+  .btns {
+    margin-left: -150px;
+  }
+  .about {
+    width: 165.8%;
+  }
+  .services {
+    width: 165.8%;
+  }
+  .projects {
+    width: 165.8%;
+  }
+  .card {
+    width: 350px;
+  }
+  .testimonials {
+    width: 165.8%;
+  }
+  .contact {
+    width: 165.8%;
+  }
+  .customers-card-content {
+    width: 350px;
+    height: 200px;
+  }
+  .customer-img-wrapper {
+    width: 150px;
+    height: 120px;
+  }
+  .input input {
+    width: 150px;
+    font-size: 15px;
+  }
+}
