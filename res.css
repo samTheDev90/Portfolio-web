@@ -529,11 +529,11 @@ footer {
     width: 164.5%;
   }
   .customer-img-wrapper {
-    width: 250px;
-    height: 170px;
+    width: 150px;
+    height: 120px;
   }
   .customers-card-content {
-    width: 550px;
+    width: 450px;
     height: 250px;
   }
   .contact {
@@ -588,8 +588,8 @@ footer {
     height: 200px;
   }
   .customer-img-wrapper {
-    width: 150px;
-    height: 120px;
+    width: 100px;
+    height: 80px;
   }
   .input input {
     width: 150px;
