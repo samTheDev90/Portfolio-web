@@ -415,7 +415,7 @@ footer {
 }
 @media (max-width: 600px) {
   .header {
-    width: 100%;
+    width: 98%;
   }
   .sticky {
     width: 93.8%;
@@ -450,17 +450,19 @@ footer {
   .testimonials {
     width: 114%;
   }
+  .customer-img-wrapper {
+    width: 200px;
+    height: 130px;
+  }
+  .customers-card-content {
+    width: 400px;
+    height: 220px;
+  }
   .contact {
     width: 114%;
   }
   .contact input {
     width: 200px;
-  }
-  .footer {
-    width: 110.5%;
-  }
-  .copyright {
-    width: 110.5%;
   }
 }
 @media (max-width: 480px) {
@@ -529,11 +531,11 @@ footer {
     width: 164.5%;
   }
   .customer-img-wrapper {
-    width: 150px;
-    height: 120px;
+    width: 250px;
+    height: 170px;
   }
   .customers-card-content {
-    width: 450px;
+    width: 550px;
     height: 250px;
   }
   .contact {
@@ -588,8 +590,8 @@ footer {
     height: 200px;
   }
   .customer-img-wrapper {
-    width: 100px;
-    height: 80px;
+    width: 150px;
+    height: 120px;
   }
   .input input {
     width: 150px;
